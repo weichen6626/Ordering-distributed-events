@@ -39,6 +39,19 @@ Since truly achieving a total reliable multicast is impossible in an asynchronou
      python3 -u gentx.py [rate] | python3 mp1_node.py [node_id] [port_num] [config_file]
 
 ## Evaluation:
+We want to track the bandwidth of the nodes and the delay in message propagation to all nodes.
 
-1. 3 nodes, 0.5 Hz each, running for 100 seconds
-    ![]()
+### 3 nodes, 0.5 Hz each, running for 100 seconds
+
+<img src="./graphs/3_bw.png" alt="3_bw" width="600">
+<img src="./graphs/3_delay.png" alt="3_delay" width="600">
+
+### 3 nodes, 0.5 Hz each, runing for 100 seconds, then one node fails, and the rest continue to run for 100 seconds
+
+<img src="./graphs/3_bw_fail.png" width="600">
+<img src="./graphs/3_delay_fail.png" width="600">
+
+### 3 nodes, 0.5 Hz each, running for 100 seconds
+
+<img src="./graphs/bw_8.png" width="600">
+<img src="./graphs/delay_8.png" width="600">
