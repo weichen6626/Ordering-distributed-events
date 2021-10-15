@@ -1,0 +1,3 @@
+2
+nodeB fa21-cs425-g06-02.cs.illinois.edu 1234
+nodeC fa21-cs425-g06-03.cs.illinois.edu 1234
